@@ -34,13 +34,13 @@ The goals of this analysis are to:
 ### Summary Statistics
 
 <p align="center">
-  <img src="summary_statistics.png" alt="Summary Statistics" width="100%">
+  <img src="images/summary_statistics.png" alt="Summary Statistics" width="100%">
 </p>
 
 ### Feature Distributions
 
 <p align="center">
-  <img src="feature_distributions.png" alt="Feature Distributions" width="100%">
+  <img src="images/feature_distributions.png" alt="Feature Distributions" width="100%">
 </p>
 
 ### Negative & Zero Values
@@ -74,7 +74,7 @@ To enhance the reliability of insights, inconsistent data points were removed wh
 ## 🔗 Correlation Insights
 
 <p align="center">
-  <img src="correlation_heatmap.png" alt="Correlation Heatmap" width="100%">
+  <img src="images/correlation_heatmap.png" alt="Correlation Heatmap" width="100%">
 </p>
 
 - **Purchase Price vs. Total Sales Dollars & Gross Profit:** Weak correlation (-0.012 and -0.016) — price variations do not significantly impact sales revenue or profit.
@@ -91,13 +91,13 @@ To enhance the reliability of insights, inconsistent data points were removed wh
 Brands with low sales but high profit margins:
 
 <p align="center">
-  <img src="brands_low_sales_high_margin_table.png" alt="Brands with Low Sales but High Profit Margins" width="60%">
+  <img src="images/brands_low_sales_high_margin_table.png" alt="Brands with Low Sales but High Profit Margins" width="60%">
 </p>
 
 **198 brands** exhibit lower sales but higher profit margins. These could benefit from targeted marketing, promotions, or price optimization to increase volume without compromising profitability.
 
 <p align="center">
-  <img src="brands_promotional_adjustments.png" alt="Brands for Promotional or Pricing Adjustments" width="90%">
+  <img src="images/brands_promotional_adjustments.png" alt="Brands for Promotional or Pricing Adjustments" width="90%">
 </p>
 
 ---
@@ -107,7 +107,7 @@ Brands with low sales but high profit margins:
 The **top 10 vendors contribute 65.69%** of total purchases, while the remaining vendors contribute only **34.31%**. This over-reliance on a few vendors may introduce risks such as supply chain disruptions, indicating a need for diversification.
 
 <p align="center">
-  <img src="top_vendors_purchase_contribution.png" alt="Top 10 Vendors Purchase Contribution" width="80%">
+  <img src="images/top_vendors_purchase_contribution.png" alt="Top 10 Vendors Purchase Contribution" width="80%">
 </p>
 
 ---
@@ -117,7 +117,7 @@ The **top 10 vendors contribute 65.69%** of total purchases, while the remaining
 Vendors buying in large quantities receive a **72% lower unit cost** ($10.78 per unit vs. higher unit costs in smaller orders). Bulk pricing strategies encourage larger orders, increasing total sales while maintaining profitability.
 
 <p align="center">
-  <img src="bulk_purchasing_unit_cost_table.png" alt="Unit Purchase Price by Order Size" width="40%">
+  <img src="images/bulk_purchasing_unit_cost_table.png" alt="Unit Purchase Price by Order Size" width="40%">
 </p>
 
 | Order Size | Unit Purchase Price |
@@ -137,13 +137,13 @@ Slow-moving inventory increases storage costs, reduces cash flow efficiency, and
 **Vendors with lowest stock turnover**
 
 <p align="center">
-  <img src="low_inventory_turnover_vendors.png" alt="Vendors with Low Stock Turnover" width="60%">
+  <img src="images/low_inventory_turnover_vendors.png" alt="Vendors with Low Stock Turnover" width="60%">
 </p>
 
 **Vendors with highest unsold inventory value**
 
 <p align="center">
-  <img src="unsold_inventory_value.png" alt="Unsold Inventory Value by Vendor" width="60%">
+  <img src="images/unsold_inventory_value.png" alt="Unsold Inventory Value by Vendor" width="60%">
 </p>
 
 ---
@@ -163,7 +163,7 @@ Low-performing vendors maintain higher margins but struggle with sales volumes, 
 - **Low-performing vendors:** Improve marketing efforts, optimize pricing strategies, and enhance distribution networks.
 
 <p align="center">
-  <img src="profit_margin_confidence_intervals.png" alt="Confidence Interval Comparison: Top vs Low Vendors (Profit Margin)" width="90%">
+  <img src="images/profit_margin_confidence_intervals.png" alt="Confidence Interval Comparison: Top vs Low Vendors (Profit Margin)" width="90%">
 </p>
 
 ---
